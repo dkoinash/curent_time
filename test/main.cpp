@@ -8,7 +8,7 @@ int main()
         CurrentTime time;
         Current_time(time);
         std::cout << "Curent UTC time: " << time.hour << " : " << time.min << " : " << time.sec << " : " << time.msec <<  " : " << time.mksek << std::endl;
-        std::this_thread::sleep_for(std::chrono::microseconds(50));
+        //std::this_thread::sleep_for(std::chrono::nanoseconds(50));
         
     }
 }
