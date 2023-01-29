@@ -7,8 +7,9 @@ struct CurrentTime{
     uint16_t min;
     uint16_t sec;
     uint16_t msec;
-    uint16_t mksek;
+    uint16_t mksec;
 };
 
-void Current_time(CurrentTime& currentTime);
+void Current_time_1(CurrentTime& currentTime);
 
+void Current_time_2(uint16_t &hour, uint16_t &min, uint16_t &sec, uint16_t &minisec, uint16_t &microsec);
