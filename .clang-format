@@ -65,7 +65,7 @@ IncludeCategories:
     Priority:        2
   - Regex:           '^[<"]\Q.+' # Qt
     Priority:        2
-    CaseSensitive:   true
+    #CaseSensitive:   true
   - Regex:           '<[[:alnum:]_.]+>' # Standart libraries
     Priority:        1
   - Regex:           '.*'
